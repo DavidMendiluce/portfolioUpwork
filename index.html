@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Marcos – Web Developer & Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav>
+    <a class="nav-logo" href="#hero">David Marcos</a>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="https://www.upwork.com/fl/davidmarcosmendiluce2?mp_source=share" target="_blank" rel="noopener" class="nav-cta">Hire Me</a></li>
+    </ul>
+    <div class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+
+      <!-- Left -->
+      <div class="hero-left reveal">
+        <h1 class="hero-heading">
+          I help businesses<br>
+          grow online through<br>
+          <span id="typed-word" class="typed-word">development</span>
+        </h1>
+        <p class="hero-sub">
+          <span class="dot"></span>
+          Top Rated on Upwork
+        </p>
+      </div>
+
+      <!-- Right – hero card -->
+      <div class="hero-card reveal" style="transition-delay:0.15s">
+
+        <!-- Blob background SVG -->
+        <svg class="hero-card-bg" viewBox="0 0 600 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="blur-hero" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="38"/>
+            </filter>
+            <filter id="blur-hero2" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="28"/>
+            </filter>
+          </defs>
+          <rect width="600" height="500" fill="#3B18C4"/>
+          <!-- blobs -->
+          <ellipse cx="130" cy="180" rx="220" ry="200" fill="#8B2FE8" opacity="0.85" filter="url(#blur-hero)"/>
+          <ellipse cx="480" cy="100" rx="200" ry="190" fill="#E040FB" opacity="0.7"  filter="url(#blur-hero)"/>
+          <ellipse cx="350" cy="380" rx="240" ry="160" fill="#5C6BF7" opacity="0.75" filter="url(#blur-hero)"/>
+          <ellipse cx="60"  cy="400" rx="160" ry="130" fill="#C2185B" opacity="0.55" filter="url(#blur-hero2)"/>
+          <ellipse cx="560" cy="320" rx="130" ry="140" fill="#00BCD4" opacity="0.4"  filter="url(#blur-hero2)"/>
+          <!-- glow -->
+          <ellipse cx="300" cy="250" rx="200" ry="180" fill="#fff" opacity="0.06" filter="url(#blur-hero)"/>
+        </svg>
+
+        <!-- Badge -->
+        <div class="badge-today">
+          <span class="badge-dot"></span>
+          Available for work
+        </div>
+
+        <!-- Profile + stats -->
+        <div class="hero-card-content card-profile">
+          <div class="profile-photo-wrap">
+            <img src="profileImg.jpg" alt="David Marcos" />
+          </div>
+
+          <div class="card-stats">
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Job<br>Success</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">50+</span>
+              <span class="stat-label">Projects<br>Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">5 yrs</span>
+              <span class="stat-label">Experience</span>
+            </div>
+          </div>
+
+          <a href="https://www.upwork.com/fl/davidmarcosmendiluce2?mp_source=share" target="_blank" rel="noopener" class="btn-upwork">
+            <i class="fas fa-briefcase upwork-icon"></i>
+            Contact on Upwork
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WORK SECTION
+  ============================================================ -->
+  <section class="section" id="work">
+    <div class="section-inner">
+
+      <div class="reveal">
+        <h2>Examples of<br>My Work</h2>
+        <p class="section-desc">A selection of websites I've designed and developed. Click any project to watch a video walkthrough.</p>
+      </div>
+
+      <div class="work-grid">
+
+        <!-- Card 1 – Shopify -->
+        <div class="project-card reveal"
+             data-video="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+             style="transition-delay:0.05s">
+          <svg class="project-card-bg" viewBox="0 0 300 280" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="blur-w1"><feGaussianBlur stdDeviation="22"/></filter>
+            </defs>
+            <rect width="300" height="280" fill="#0D1B2A"/>
+            <ellipse cx="80"  cy="90"  rx="160" ry="130" fill="#1A6B3C" opacity="0.9" filter="url(#blur-w1)"/>
+            <ellipse cx="240" cy="200" rx="130" ry="110" fill="#95BF47" opacity="0.65" filter="url(#blur-w1)"/>
+            <ellipse cx="160" cy="140" rx="100" ry="90"  fill="#3DAA70" opacity="0.5" filter="url(#blur-w1)"/>
+          </svg>
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <div class="project-icon play-btn"><i class="fas fa-play"></i></div>
+            <div class="project-name">Shopify Store</div>
+            <div class="project-desc">Custom e-commerce store with product pages, cart optimization & conversion-focused design.</div>
+          </div>
+        </div>
+
+        <!-- Card 2 – Divi -->
+        <div class="project-card reveal"
+             data-video="https://www.youtube.com/watch?v=HvPrEjQ0H1I"
+             style="transition-delay:0.1s">
+          <svg class="project-card-bg" viewBox="0 0 300 280" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="blur-w2"><feGaussianBlur stdDeviation="22"/></filter>
+            </defs>
+            <rect width="300" height="280" fill="#1A0A2E"/>
+            <ellipse cx="60"  cy="80"  rx="150" ry="120" fill="#7B2FBE" opacity="0.85" filter="url(#blur-w2)"/>
+            <ellipse cx="240" cy="210" rx="130" ry="110" fill="#E040FB" opacity="0.6"  filter="url(#blur-w2)"/>
+            <ellipse cx="150" cy="150" rx="110" ry="90"  fill="#5C6BF7" opacity="0.5"  filter="url(#blur-w2)"/>
+          </svg>
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <div class="project-icon play-btn"><i class="fas fa-play"></i></div>
+            <div class="project-name">Divi Website</div>
+            <div class="project-desc">Professional business site built with Divi, featuring custom layouts and advanced modules.</div>
+          </div>
+        </div>
+
+        <!-- Card 3 – Webflow -->
+        <div class="project-card reveal"
+             data-video="https://www.youtube.com/watch?v=rLuuOkpZmI8"
+             style="transition-delay:0.15s">
+          <svg class="project-card-bg" viewBox="0 0 300 280" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="blur-w3"><feGaussianBlur stdDeviation="22"/></filter>
+            </defs>
+            <rect width="300" height="280" fill="#0A1628"/>
+            <ellipse cx="80"  cy="100" rx="150" ry="120" fill="#1565C0" opacity="0.9" filter="url(#blur-w3)"/>
+            <ellipse cx="240" cy="190" rx="130" ry="100" fill="#00BCD4" opacity="0.6" filter="url(#blur-w3)"/>
+            <ellipse cx="160" cy="150" rx="100" ry="85"  fill="#4FC3F7" opacity="0.5" filter="url(#blur-w3)"/>
+          </svg>
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <div class="project-icon play-btn"><i class="fas fa-play"></i></div>
+            <div class="project-name">Webflow Website</div>
+            <div class="project-desc">Pixel-perfect Webflow build with CMS, animations and fully responsive design system.</div>
+          </div>
+        </div>
+
+        <!-- Card 4 – GoHighLevel -->
+        <div class="project-card reveal"
+             data-video="https://www.youtube.com/watch?v=-D-OPe7gO5Q"
+             style="transition-delay:0.2s">
+          <svg class="project-card-bg" viewBox="0 0 300 280" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="blur-w4"><feGaussianBlur stdDeviation="22"/></filter>
+            </defs>
+            <rect width="300" height="280" fill="#1A0F00"/>
+            <ellipse cx="80"  cy="90"  rx="160" ry="120" fill="#E65100" opacity="0.85" filter="url(#blur-w4)"/>
+            <ellipse cx="240" cy="210" rx="130" ry="100" fill="#FF8F00" opacity="0.65" filter="url(#blur-w4)"/>
+            <ellipse cx="160" cy="145" rx="100" ry="85"  fill="#FFC107" opacity="0.4"  filter="url(#blur-w4)"/>
+          </svg>
+          <div class="project-card-overlay"></div>
+          <div class="project-card-content">
+            <div class="project-icon play-btn"><i class="fas fa-play"></i></div>
+            <div class="project-name">GoHighLevel Website</div>
+            <div class="project-desc">Marketing funnel & website built inside GHL with automations, forms and CRM integration.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <section class="section" id="services">
+    <div class="section-inner">
+      <div class="two-col">
+
+        <div class="section-left reveal">
+          <h2>How I<br>Can Help</h2>
+        </div>
+
+        <div class="services-right">
+
+          <div class="service-item reveal" style="transition-delay:0.05s">
+            <div class="service-icon">🖥️</div>
+            <div class="service-body">
+              <h3>Website Design &amp; Development</h3>
+              <p>Design and develop websites tailored to your business goals, whether you're starting from scratch or improving an existing website.</p>
+            </div>
+          </div>
+
+          <div class="service-item reveal" style="transition-delay:0.1s">
+            <div class="service-icon">⚡</div>
+            <div class="service-body">
+              <h3>Website Improvements &amp; Optimization</h3>
+              <p>Improve website speed, fix bugs, enhance user experience, and optimize your site for better performance and search visibility.</p>
+            </div>
+          </div>
+
+          <div class="service-item reveal" style="transition-delay:0.15s">
+            <div class="service-icon">🔧</div>
+            <div class="service-body">
+              <h3>WordPress &amp; Builder Expertise</h3>
+              <p>Experienced with WordPress, Elementor, Divi, and a wide range of plugins including booking systems, membership platforms, and custom functionality.</p>
+            </div>
+          </div>
+
+          <div class="service-item reveal" style="transition-delay:0.2s">
+            <div class="service-icon">🚀</div>
+            <div class="service-body">
+              <h3>Website Migration &amp; Technical Support</h3>
+              <p>Move websites between hosting providers or platforms, implement new functionality, and provide ongoing technical assistance.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PRICING SECTION
+  ============================================================ -->
+  <section class="section" id="pricing">
+    <div class="section-inner">
+      <div class="two-col">
+
+        <div class="section-left reveal">
+          <h2>Flexible pricing<br>for every<br>project</h2>
+        </div>
+
+        <div class="pricing-right">
+
+          <!-- Hourly card -->
+          <div class="pricing-card reveal" style="transition-delay:0.05s">
+            <svg class="pricing-card-bg" viewBox="0 0 500 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="blur-p1"><feGaussianBlur stdDeviation="30"/></filter>
+              </defs>
+              <rect width="500" height="220" fill="#0D2137"/>
+              <ellipse cx="100" cy="80"  rx="200" ry="160" fill="#1565C0" opacity="0.9" filter="url(#blur-p1)"/>
+              <ellipse cx="420" cy="170" rx="160" ry="130" fill="#00BCD4" opacity="0.6" filter="url(#blur-p1)"/>
+              <ellipse cx="280" cy="110" rx="130" ry="100" fill="#0288D1" opacity="0.5" filter="url(#blur-p1)"/>
+            </svg>
+            <div class="pricing-card-overlay"></div>
+            <div class="pricing-card-content">
+              <span class="pricing-emoji">⏱️</span>
+              <h3>Hourly Projects</h3>
+              <p>Ideal for ongoing work, evolving requirements, bug fixes, website improvements, and long-term support. Hourly projects provide maximum flexibility when priorities change or new features are added during development.</p>
+              <span class="pricing-price">$10 / hour</span>
+            </div>
+          </div>
+
+          <!-- Fixed-price card -->
+          <div class="pricing-card reveal" style="transition-delay:0.1s">
+            <svg class="pricing-card-bg" viewBox="0 0 500 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="blur-p2"><feGaussianBlur stdDeviation="30"/></filter>
+              </defs>
+              <rect width="500" height="220" fill="#1A0A2E"/>
+              <ellipse cx="100" cy="80"  rx="200" ry="160" fill="#7B2FBE" opacity="0.85" filter="url(#blur-p2)"/>
+              <ellipse cx="420" cy="170" rx="160" ry="130" fill="#E040FB" opacity="0.6"  filter="url(#blur-p2)"/>
+              <ellipse cx="280" cy="110" rx="130" ry="100" fill="#5C6BF7" opacity="0.5"  filter="url(#blur-p2)"/>
+            </svg>
+            <div class="pricing-card-overlay"></div>
+            <div class="pricing-card-content">
+              <span class="pricing-emoji">📋</span>
+              <h3>Fixed-Price Projects</h3>
+              <p>Best suited for projects with clearly defined requirements, scope, and deliverables. The project is divided into milestones, allowing progress to be reviewed and approved at each stage.</p>
+              <span class="pricing-price">Milestone-based</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA BANNER
+  ============================================================ -->
+  <section id="cta-banner">
+    <div class="cta-inner reveal">
+      <h2>Ready to discuss<br>your project?</h2>
+      <p>Create a free Upwork account and send me your requirements.</p>
+      <a href="https://www.upwork.com/fl/davidmarcosmendiluce2?mp_source=share"
+         target="_blank" rel="noopener" class="btn-primary">
+        <i class="fas fa-briefcase"></i>
+        Hire Me on Upwork
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer>
+    <p>&copy; 2025 David Marcos Mendiluce. All rights reserved.</p>
+  </footer>
+
+  <!-- ============================================================
+       VIDEO MODAL
+  ============================================================ -->
+  <div class="modal-overlay" id="video-modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="Close video">&times;</button>
+      <div class="modal-iframe-wrap">
+        <iframe id="modal-iframe" src="" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCRIPTS
+  ============================================================ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
